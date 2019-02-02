@@ -5,14 +5,12 @@ function loadImage(name) {
     img.src = 'images/' + name;
     return img;
 }
-console.log('hello world')
 
 var images = {
     map: loadImage('fieldmap.jpg'),
     robot: loadImage('robot.png')
 };
 
-console.log('hello world2')
 
 var mapCtx = ui.fieldmap.getContext("2d");
 
