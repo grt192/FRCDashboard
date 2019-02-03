@@ -8,17 +8,17 @@
 </head>
 
 <body>
-    <div id="timer">2:15</div>
     <header>
         <!-- Tells whether robot is connected to dashboard. -->
         <div id="robot-state">Unknown state</div>
         <button id="connect-button">Connect</button>
+        <div id="current-mode">Current Mode: 0</div>
     </header>
     <!-- You'll need to mess around with the CSS of #camera (found in css/style.css) to get it to work.
         More explanation in that CSS rule. -->
     <!-- The main body of the dashboard, by default contains the gyro monitor and the robot diagram -->
     <article>
-       <canvas id="fieldmap" width="1296" height="648" style="width: 648px; height: 324px;"></canvas>
+       <canvas id="fieldmap" width="1296" height="648" style="width: 972px; height: 486px;"></canvas>
     </article>
     <!-- The sidebar of the dashboard. Designed for smaller control elements like selection boxes and small buttons. -->
     <aside>
