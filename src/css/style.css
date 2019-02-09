@@ -60,7 +60,7 @@ article {
     top: 20vh;
     left: 0vw;
     height: 100vh;
-    width: 85vw;
+    width: 80vw;
 }
 text {
     font-size: 16px;
@@ -74,8 +74,8 @@ text {
 }
 aside {
     right: 0;
-    top: 0;
-    width: 15vw;
+    top: 20vh;
+    width: 20vw;
     height: 100vh;
 }
 aside > * {
@@ -104,4 +104,10 @@ body.login #login {
 }
 #login > button {
     margin-left: 5px;
+}
+
+.elevator-button {
+    width: 200px;
+    height: 70px;
+    background: #505050;
 }

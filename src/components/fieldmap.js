@@ -26,7 +26,6 @@ function drawFieldMap() {
     let mode = NetworkTables.getValue('/Robot/mode', 0);
     if (mode != 0) {
         let path = NetworkTables.getValue('/Pathfinding/path', []);
-        console.log(path);
         mapCtx.beginPath();
         mapCtx.moveTo(x, y);
         for (let i = 0; i < path.length; i += 2) {
@@ -69,7 +68,6 @@ ui.fieldmap.onclick = (ev) => {
     let coords = ui.fieldmap.toRelativeCoords(ev);
     let x = coords[0]/2;
     let y = coords[1]/2;
-    console.log(x);
     NetworkTables.putValue('/Pathfinding/target', x + " " + y);
     NetworkTables.putValue('/Robot/mode', 1);
 };
