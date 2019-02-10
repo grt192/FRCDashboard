@@ -7,8 +7,8 @@ function loadImage(name) {
 }
 
 var images = {
-    map: loadImage('testfield2.png'),
-    robot: loadImage('robot.png')
+    map: loadImage('BetaFieldMap0.png'),
+    robot: loadImage('betarobot.png')
 };
 
 
