@@ -1,4 +1,9 @@
 ui.fieldmap = document.getElementById("fieldmap");
+ui.overrideButton = document.getElementById("override");
+
+ui.overrideButton.onclick = (ev) => {
+    NetworkTables.putValue('/Robot/mode', 0);
+}
 
 function loadImage(name) {
     let img = new Image();
@@ -7,7 +12,7 @@ function loadImage(name) {
 }
 
 var images = {
-    map: loadImage('BetaFieldMap0.png'),
+    map: loadImage('betafield1.png'),
     robot: loadImage('betarobot.png')
 };
 

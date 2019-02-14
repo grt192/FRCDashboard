@@ -111,3 +111,15 @@ body.login #login {
     height: 70px;
     background: #505050;
 }
+
+#override {
+    position: fixed;
+    width: 70vw;
+    height: 20vh;
+    top: 0;
+    left: 30vw;
+    color: black;
+    background: red;
+    font-size: 100px;
+    text-align: center;
+}
