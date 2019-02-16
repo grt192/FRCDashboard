@@ -112,14 +112,27 @@ body.login #login {
     background: #505050;
 }
 
-#override {
+#score {
     position: fixed;
-    width: 70vw;
+    width: 28vw;
     height: 20vh;
     top: 0;
-    left: 30vw;
+    left: 20vw;
     color: black;
-    background: red;
+    background: green;
     font-size: 100px;
     text-align: center;
+}
+
+#override {
+    position: fixed;
+    width: 48vw;
+    height: 20vh;
+    top: 0;
+    left: 52vw;
+    color: black;
+    background: red;
+    font-size: 75px;
+    text-align: center;
+    line-height: 20vh;
 }
