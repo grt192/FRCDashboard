@@ -21,9 +21,41 @@ function createVisionTarget(id, x, y) {
 var VISION_RADIUS = 7.5;
 
 var visionTargets = [
-    createVisionTarget(0, 0, 29.75),
-    createVisionTarget(1, 134.5, 165.25),
-    createVisionTarget(2, 148.25, 156)
+    // createVisionTarget(0, 0, 29.75),
+    // createVisionTarget(1, 134.5, 165.25),
+    // createVisionTarget(2, 148.25, 156)
+    createVisionTarget(0, 0.0, 25.715),
+createVisionTarget(1, 0.0, 296.285),
+createVisionTarget(2, 214.626, 18.116),
+createVisionTarget(3, 229.26, 27.474),
+createVisionTarget(4, 243.894, 18.116),
+createVisionTarget(5, 243.894, 305.884),
+createVisionTarget(6, 229.26, 296.526),
+createVisionTarget(7, 214.626, 305.884),
+createVisionTarget(8, 220.25, 150.125),
+createVisionTarget(9, 220.25, 171.875),
+createVisionTarget(10, 304.385, 188.875),
+createVisionTarget(11, 264.885, 188.875),
+createVisionTarget(12, 282.635, 188.875),
+createVisionTarget(13, 304.385, 133.125),
+createVisionTarget(14, 264.885, 133.125),
+createVisionTarget(15, 282.635, 133.125),
+createVisionTarget(16, 648.0, 25.715),
+createVisionTarget(17, 648.0, 296.285),
+createVisionTarget(18, 433.374, 18.116),
+createVisionTarget(19, 418.74, 27.474),
+createVisionTarget(20, 404.106, 18.116),
+createVisionTarget(21, 404.106, 305.884),
+createVisionTarget(22, 418.74, 296.526),
+createVisionTarget(23, 433.374, 305.884),
+createVisionTarget(24, 427.75, 150.125),
+createVisionTarget(25, 427.75, 171.875),
+createVisionTarget(26, 343.615, 188.875),
+createVisionTarget(27, 383.115, 188.875),
+createVisionTarget(28, 365.365, 188.875),
+createVisionTarget(29, 343.615, 133.125),
+createVisionTarget(30, 383.115, 133.125),
+createVisionTarget(31, 365.365, 133.125)
 ]
 
 function loadImage(name) {
@@ -33,7 +65,7 @@ function loadImage(name) {
 }
 
 var images = {
-    map: loadImage('betafield2.png'),
+    map: loadImage('fullfield0.png'),
     robot: loadImage('betarobot.png')
 };
 
