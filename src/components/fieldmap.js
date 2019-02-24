@@ -66,7 +66,7 @@ function loadImage(name) {
 
 var images = {
     map: loadImage('betafield2.png'),
-    robot: loadImage('betarobot.png')
+    robot: loadImage('omegarobot.png')
 };
 
 
