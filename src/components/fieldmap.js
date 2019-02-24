@@ -21,9 +21,10 @@ function createVisionTarget(id, x, y) {
 var VISION_RADIUS = 7.5;
 
 var visionTargets = [
-    createVisionTarget(0, 0, 29.75),
+    createVisionTarget(0, 0.0, 29.75),
     createVisionTarget(1, 134.5, 165.25),
-    createVisionTarget(2, 148.25, 156)
+    createVisionTarget(2, 148.25, 156.0),
+    createVisionTarget(3, 181.0, 28.0)
 //     createVisionTarget(0, 0.0, 25.715),
 // createVisionTarget(1, 0.0, 296.285),
 // createVisionTarget(2, 214.626, 18.116),
@@ -65,7 +66,7 @@ function loadImage(name) {
 }
 
 var images = {
-    map: loadImage('betafield2.png'),
+    map: loadImage('betafield3.png'),
     robot: loadImage('omegarobot.png')
 };
 
