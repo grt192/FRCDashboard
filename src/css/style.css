@@ -117,7 +117,7 @@ body.login #login {
 
 #score {
     position: fixed;
-    width: 28vw;
+    width: 24vw;
     height: 20vh;
     top: 0;
     left: 20vw;
@@ -130,12 +130,25 @@ body.login #login {
 
 #override {
     position: fixed;
-    width: 48vw;
+    width: 40vw;
     height: 20vh;
     top: 0;
-    left: 52vw;
+    left: 60vw;
     color: black;
     background: red;
+    font-size: 60px;
+    text-align: center;
+    line-height: 20vh;
+}
+
+#correct {
+    position: fixed;
+    width: 12vw;
+    left: 46vw;
+    top: 0;
+    height: 20vh;
+    color: black;
+    background-color: #AAAA00;
     font-size: 75px;
     text-align: center;
     line-height: 20vh;
@@ -143,7 +156,7 @@ body.login #login {
 
 #fieldmap {
     position: fixed;
-    width: 80vw;
-    height: 40vw;
+    width: 76vw;
+    height: 38vw;
     background: white;
 }
