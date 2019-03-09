@@ -107,12 +107,28 @@ body.login #login {
 }
 
 .elevator-button {
-    width: 18vw;
+    width: 12vw;
     height: 10vh;
     background: #505050;
     text-align: center;
     color: white;
     line-height: 10vh;
+    float: left;
+}
+
+#button0 {
+    width: 17vw;
+}
+
+.elevator-set-button {
+    width: 4vw;
+    height: 10vh;
+    background: #AAAA00;
+    text-align: center;
+    color: black;
+    line-height: 10vh;
+    float: right;
+    margin-right: 2vh;
 }
 
 #score {
