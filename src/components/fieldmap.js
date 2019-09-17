@@ -1,13 +1,13 @@
 ui.fieldmap = document.getElementById("fieldmap");
 ui.overrideButton = document.getElementById("override");
-ui.scoreButton = document.getElementById("score");
+ui.drawButton = document.getElementById("draw");
 
 ui.overrideButton.onclick = (ev) => {
     NetworkTables.putValue('/Robot/mode', 0);
 }
 
-ui.scoreButton.onclick = (ev) => {
-    NetworkTables.putValue('/Robot/mode', 2);
+ui.drawButton.onclick = (ev) => {
+    NetworkTables.putValue('/Robot/mode', 4);
 }
 
 function createVisionTarget(id, x, y) {
@@ -66,7 +66,7 @@ function loadImage(name) {
 }
 
 var images = {
-    map: loadImage('betafield3.png'),
+    map: loadImage('draw.png'),
     robot: loadImage('omegarobot.png')
 };
 
